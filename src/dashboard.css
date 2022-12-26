@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+.logout-btn{
+    cursor: pointer;
+    font-size: 18px;
+    background-color: #D4DBE2;
+    color: black;
+    padding: 10px 30px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.logout-btn:hover{
+    background-color: #0F6697;
+    color:#d4dbe2;
+
+}
+.logout-btn:focus{
+    box-shadow: none;
+}
