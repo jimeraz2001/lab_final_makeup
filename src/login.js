@@ -43,7 +43,7 @@ const Loginform = (props) => {
             <input type="text" onChange={handleInput} value={inputs.username} name="username" placeholder="Username" />
             <input type="password" onChange={handleInput} value={inputs.password} name="password" placeholder="Password" />
 
-            <button onClick={login}>Login</button>
+            <button classname='login-btn' onClick={login}>Login</button>
 
 
         </div>
